@@ -4,9 +4,9 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-userApp\Models\User;
+use App\Models\User;
 
-class User extends Seeder
+class UserSeeder extends Seeder
 {
     /**
      * Run the database seeds.
