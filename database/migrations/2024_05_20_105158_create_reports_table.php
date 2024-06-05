@@ -22,6 +22,7 @@ return new class extends Migration
             $table->string('submission',20);
             $table->string('attendance',2);
             $table->string('attendance_reason',20)->nullable();
+            $table->string('body');
             $table->timestamps();
         });
     }

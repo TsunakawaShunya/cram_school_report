@@ -19,7 +19,7 @@ class ReplyFactory extends Factory
         return [
             'user_id' => 1,
             'report_id' => 1,
-            'body' => fake()->reaText()
+            'body' => fake()->realText()
         ];
     }
 }

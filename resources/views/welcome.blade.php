@@ -7,12 +7,13 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="bg-orange-300 max-h-full">
-      <header class="bg-gray-400 text-gray-800 font-bold font-mono text-3xl">
+    <body class="bg-gray-100 max-h-full">
+      <header class="bg-orange-200 text-gray-800 font-bold font-mono text-3xl">
         <div class="text-center text-base p-2 flex justify-end">
           <ul>
             <li class="p-2 text-lg font-bold"><a href="/login">ログイン</a></li>
-            <li class="p-2 text-lg font-bold"><a href="/register">新規登録</a></li>
+            <li class="p-2 text-lg font-bold"><a href="/register">社員用新規登録</a></li>
+            <li class="p-2 text-lg font-bold"><a href="/room/create">教室を作成</a></li>
           </ul>
         </div>
       </header>
